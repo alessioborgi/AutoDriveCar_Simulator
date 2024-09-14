@@ -20,8 +20,6 @@ This project involves using a deep learning model, potentially for autonomous dr
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -42,7 +40,8 @@ Clone the repository and install the necessary dependencies:
 ```bash
 git clone https://github.com/alessioborgi/AutoDriveCar_Simulator.git
 cd AutoDriveCar_Simulator
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Usage
 
@@ -53,7 +52,8 @@ To start the simulation and model training:
 3. Run the script using the following command:
 
 ```bash
-python simulator.py```
+python simulator.py
+```
 
 ## Model Training and Evaluation
 
@@ -66,7 +66,9 @@ python simulator.py```
 To train a model, use the command:
 
 ```bash
-python train_model.py --config config.yaml```
+python train_model.py --config config.yaml
+```
 
-To evaluate a model with a specific checkpoint, use:
+## License
 
+This project is licensed under the MIT License. 
