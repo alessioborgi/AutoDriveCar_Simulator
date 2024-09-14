@@ -43,3 +43,30 @@ Clone the repository and install the necessary dependencies:
 git clone https://github.com/alessioborgi/AutoDriveCar_Simulator.git
 cd AutoDriveCar_Simulator
 pip install -r requirements.txt```
+
+## Usage
+
+To start the simulation and model training:
+
+1. Open the main simulation or training script (either a `.py` or `.ipynb` file).
+2. Adjust parameters in the configuration file (e.g., `config.yaml`) as needed.
+3. Run the script using the following command:
+
+```bash
+python simulator.py```
+
+## Model Training and Evaluation
+
+- **Training**: The project includes deep learning model training using libraries like PyTorch and PyTorch Lightning. To start training, modify the dataset path and hyperparameters in the provided notebook or script. After configuring, run the notebook cells or execute the script to begin training the model.
+
+- **Evaluation**: The project provides various metrics to evaluate the model's performance, including accuracy, F1 score, precision, and recall. Ensure you specify the correct dataset and model checkpoint paths in the evaluation script or notebook before running the evaluation process.
+
+### Example Commands
+
+To train a model, use the command:
+
+```bash
+python train_model.py --config config.yaml```
+
+To evaluate a model with a specific checkpoint, use:
+
