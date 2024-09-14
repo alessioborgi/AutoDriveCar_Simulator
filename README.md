@@ -1,1 +1,1 @@
-# HW2_CNN
+# AutoDriveCar Simulator: Autonomous Driving Car using CNNs
